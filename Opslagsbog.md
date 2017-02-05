@@ -1,6 +1,14 @@
 # Opslags bog til scriptcraft.
 Link til den engelske hjemmeside: https://scriptcraftjs.org/
 
+Hust at når man skriver javascript kode i minecraft, så skal man skrive /js foran. Ex: 
+
+/js var placering = 10;
+
+Hvis man skriver kode i filer er dette ikke nødvendigt, her kan man nøjes med:
+
+var placering = 10;
+
 ## Javascript
 ### Variable
 En variabel er et navn på noget man har gemt i computerens hukommelse. Man kan forestille sig det lidt som en kasse hvor man har skrevet et navn på, og så kan man ligge ting ned i kassen. 
@@ -13,7 +21,11 @@ Nu har vi oprettet en variabel der hedder spillerNavn. Vi kan nu sætte spiller 
 
 spillerNavn = 'Anders And';
 
-Nu har vi sat spillerNavn til at være lig 'Anders And'. Hver gang vi bruger spillerNavn fra nu af så vil den være ligmed 'Anders And'. Vi kunne fx bruge **echo** funktionen 
+Nu har vi sat spillerNavn til at være lig 'Anders And'. Hver gang vi bruger spillerNavn fra nu af så vil den være ligmed 'Anders And'. Vi kunne fx bruge **echo** funktionen i scriptcraft til at vise navnet.
+
+echo(spillerNavn);
+
+Dette vil printe 'Anders And' ud på skærmen.
 
 
 
