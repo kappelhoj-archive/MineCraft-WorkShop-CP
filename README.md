@@ -1,5 +1,6 @@
 # MineCraft-WorkShop
-**For english users:**
+**For english users**
+
 This site contains material used by coding pirates in Hvidovre city, Denmark. The material is in danish, but we use external sources in english to create it. If you are interested in learning more you can check out the links below.
 
 Links:
