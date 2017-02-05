@@ -1,9 +1,13 @@
 # Opslags bog til scriptcraft.
 
 ##Indhold:
+
 [Scriptcraft Funktioner](#scriptcraft-funktioner )
+
   [echo](#echo)
+  
   [Drone](#drone)
+  
   [Minecraft Blocks](#minecraft-blocks)
 
 
