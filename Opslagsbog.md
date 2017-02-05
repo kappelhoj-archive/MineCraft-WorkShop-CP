@@ -38,6 +38,12 @@ Man kan også sætte en variabel i samme linje som man laver den, her er et ekse
 
 ## Scriptcraft Funktioner 
 ### echo
-**echo** er en funktion i scriptcraft der printer ting på skærmen i minecraft.
+**echo** er en funktion i scriptcraft der printer ting på skærmen i minecraft. **echo** har to input. Hvem den skal skrive beskeden til og hvad den skal skrive. 
+
+```javascript
+echo(self, 'Denne besked printes på skærmen.');
+```
+
+
 
 
