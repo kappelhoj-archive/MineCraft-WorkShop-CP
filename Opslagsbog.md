@@ -78,6 +78,8 @@ box('5:2', bredde, hoejde, dybde);
 ```
 Der findes en liste over alle blocks numre i afsnittet [Minecraft Blocks](### Minecraft Blocks)
 
+[# Javascript](## Javascript)
+
 Drone kan rigtig mange ting, derfor anbefaler vi at man kigger på den engelske guide, så man kan se alle de forskellgie funktioner! 
 Link: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/API-Reference.md#drone-plugin
 
