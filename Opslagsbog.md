@@ -1,3 +1,3 @@
 # Opslags bog til scriptcraft.
-
-##Hej
+Link til den engelske hjemmeside: https://scriptcraftjs.org/
+## 
