@@ -3,12 +3,11 @@
 ##Indhold:
 
 [Scriptcraft Funktioner](#scriptcraft-funktioner )
-
-&nbsp;[echo](#echo)
+  *[echo](#echo)
   
-&nbsp;[Drone](#drone)
+  *[Drone](#drone)
 
-&nbsp;[Minecraft Blocks](#minecraft-blocks)
+  *[Minecraft Blocks](#minecraft-blocks)
 
 
 ##Introduktion
