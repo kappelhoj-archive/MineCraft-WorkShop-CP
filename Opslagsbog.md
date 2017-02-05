@@ -13,7 +13,7 @@ Nu har vi oprettet en variabel der hedder spillerNavn. Vi kan nu sætte spiller 
 
 spillerNavn = 'Anders And';
 
-Nu har vi sat spillerNavn til at være lig 'Anders And'. Hver gang vi bruger spillerNavn fra nu af så vil den være ligmed 'Anders And'. Vi kunne fx bruge *echo* funktionen 
+Nu har vi sat spillerNavn til at være lig 'Anders And'. Hver gang vi bruger spillerNavn fra nu af så vil den være ligmed 'Anders And'. Vi kunne fx bruge **echo** funktionen 
 
 
 
