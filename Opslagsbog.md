@@ -1,6 +1,6 @@
 # Opslags bog til scriptcraft.
 Link til den engelske hjemmeside: https://scriptcraftjs.org/
-[Minecraft Blocks](#minecraft-blocks)
+
 Hust at når man skriver javascript kode i minecraft, så skal man skrive /js foran. Ex: 
 
 `/js var placering = 10;`
@@ -78,7 +78,6 @@ box('5:2', bredde, hoejde, dybde);
 ```
 Der findes en liste over alle blocks numre i afsnittet [Minecraft Blocks](#minecraft-blocks)
 
-[Javascript](#javascript)
 
 Drone kan rigtig mange ting, derfor anbefaler vi at man kigger på den engelske guide, så man kan se alle de forskellgie funktioner! 
 Link: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/API-Reference.md#drone-plugin
