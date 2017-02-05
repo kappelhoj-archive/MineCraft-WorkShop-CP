@@ -78,7 +78,7 @@ Man kan også lave en kasse med en variabel størrelse. fx:
 var bredde = 10;
 var hoejde = 3;
 var dybde = 6;
-box(blocks.oak, bredde, hoejde, dybde);
+var d=box(blocks.oak, bredde, hoejde, dybde);
 ```
 Dette laver en kasse af oak som er 10 bred, 3 høj og 6 dyb. Det kan være en rigtig god ide at prøve sig frem hvis man er i tvivl om hvad de forskellige ting betyder.
 
@@ -94,8 +94,20 @@ Nogle blocks findes der flere forskellige udgaver af. Fx findes der mange forske
 ```javascript
 box('5:2', bredde, hoejde, dybde);
 ```
-Der findes en liste over alle blocks numre i afsnittet [Minecraft Blocks](#minecraft-blocks)
+Der findes en liste over alle block numre i afsnittet [Minecraft Blocks](#minecraft-blocks).
 
+Man kan også bevæge dronen rundt. Dette gør man ved at bruge følgende funktioner:
+ * up()
+ * down()
+ * left()
+ * right()
+ * fwd()
+ * back()
+ * turn()
+ 
+De første seks funktioner bevæger dronen i en retning i forhold til hvilken vej den pejer. Dronen pejer altid frem i den retning som spilleren først lavede dronen. Fx vil medtoden up() rykke dronen en klods op. Man kan også give up et input og så rykker den det antal klodser. Fx up(4) rykker dronnen 4 klodser op. Man kan gøre det samme for de andre metoder.
+
+Den sidste metode turn, den rykker ikke dronen. Den rotere i stedet dronen. Så hvis man skriver turn() så roterer dronen 90 grader i urets retning. Man kan også give et tal input, så roterer dronen 90 grader med uret det antal gange man skriver.
 
 Drone kan rigtig mange ting, derfor anbefaler vi at man kigger på den engelske guide, så man kan se alle de forskellige funktioner! 
 Link: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/API-Reference.md#drone-plugin
