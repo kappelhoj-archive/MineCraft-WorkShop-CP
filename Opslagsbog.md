@@ -1,6 +1,6 @@
 # Opslags bog til scriptcraft.
 Link til den engelske hjemmeside: https://scriptcraftjs.org/
-
+[Minecraft Blocks](#minecraft-blocks)
 Hust at når man skriver javascript kode i minecraft, så skal man skrive /js foran. Ex: 
 
 `/js var placering = 10;`
