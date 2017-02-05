@@ -9,7 +9,7 @@ Hvis man skriver kode i filer er dette ikke nødvendigt, her kan man nøjes med:
 
 `var placering = 10;`
 
-## Minecraft commands og 
+## Minecraft ting.
 
 ## Javascript
 ### Variable
@@ -43,6 +43,16 @@ Man kan også sætte en variabel i samme linje som man laver den, her er et ekse
 ```javascript
 echo(self, 'Denne besked printes på skærmen.');
 ```
+Her er self den spiller som kalder funktionen echo.
+
+### drone
+
+Drone er et objekt i scriptcraft. Den bruges til at bygge ting i minecraft. 
+
+
+
+Drone kan rigtig mange ting, derfor anbefaler vi at man kigger på den engelske guide, så man kan se alle de forskellgie funktioner! 
+Link: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/API-Reference.md#drone-plugin
 
 
 
