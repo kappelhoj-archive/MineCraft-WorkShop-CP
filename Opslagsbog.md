@@ -76,7 +76,7 @@ Nogle blocks findes der flere forskellige udgaver af. Fx findes der mange forske
 ```javascript
 box('5:2', bredde, hoejde, dybde);
 ```
-Der findes en liste over alle blocks numre i afsnittet [Minecraft Blocks](#Minecraft-Blocks)
+Der findes en liste over alle blocks numre i afsnittet [Minecraft Blocks](#minecraft-blocks)
 
 [Javascript](#javascript)
 
