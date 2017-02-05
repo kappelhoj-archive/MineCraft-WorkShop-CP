@@ -3,7 +3,7 @@ Link til den engelske hjemmeside: https://scriptcraftjs.org/
 
 Hust at når man skriver javascript kode i minecraft, så skal man skrive /js foran. Ex: 
 
-/js var placering = 10;
+`/js var placering = 10;`
 
 Hvis man skriver kode i filer er dette ikke nødvendigt, her kan man nøjes med:
 
@@ -17,7 +17,7 @@ En variabel er et navn på noget man har gemt i computerens hukommelse. Man kan 
 
 I javascript kan man oprette variable ved at skrive 'var'. Man skriver fx:
 
-´var spillerNavn;´
+var spillerNavn;
 
 Nu har vi oprettet en variabel der hedder spillerNavn. Vi kan nu sætte spiller navn til at være lig et navn. Dette kan vi gøre således:
 
