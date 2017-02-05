@@ -38,5 +38,6 @@ Man kan også sætte en variabel i samme linje som man laver den, her er et ekse
 
 ## Scriptcraft Funktioner 
 ### echo
+**echo** er en funktion i scriptcraft der printer ting på skærmen i minecraft.
 
 
