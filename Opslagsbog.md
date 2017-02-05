@@ -9,7 +9,6 @@ Hvis man skriver kode i filer er dette ikke nødvendigt, her kan man nøjes med:
 
 `var placering = 10;`
 
-## Minecraft ting.
 
 ## Javascript
 ### Variable
@@ -37,6 +36,7 @@ Man kan også sætte en variabel i samme linje som man laver den, her er et ekse
 `var spiller2Navn = 'Fedtmule'`
 
 ## Scriptcraft Funktioner 
+
 ### echo
 **echo** er en funktion i scriptcraft der printer ting på skærmen i minecraft. **echo** har to input. Hvem den skal skrive beskeden til og hvad den skal skrive. 
 
@@ -45,15 +45,43 @@ echo(self, 'Denne besked printes på skærmen.');
 ```
 Her er self den spiller som kalder funktionen echo.
 
-### drone
+### Drone
 
-Drone er et objekt i scriptcraft. Den bruges til at bygge ting i minecraft. 
+Drone er et objekt i scriptcraft. Den bruges til at bygge ting i minecraft. Det mest simple metode til at bygge ting er **box**. Med box der laver man en kasse. Hvilket jo er praktisk når minecraft består af kasser. Den mest simple udgave af box kan se således ud:
 
+```javascript
+box(blocks.oak);
+```
+Dette laver en 'oak' block i stedet for den block spilleren pejer på. Hvis spilleren ikke peger på en block laver den en oak block to klodser foran ham.
 
+Man kan også lave en kasse med en variabel størrelse. fx:
+
+```javascript
+var bredde = 10;
+var hoejde = 3;
+var dybde = 6;
+box(blocks.oak, bredde, hoejde, dybde);
+```
+Dette laver en kasse af oak som er 10 bred, 3 høj og 6 dyb. Det kan være en rigtig god ide at prøve sig frem hvis man er i tvivl om hvad de forskellige ting betyder.
+
+Der er selvfølgelig muligt at lave ting af mange forskellige blocks. Det er to måder at gøre det på.  Den første måde er at bruge blocks objektet. Vi har allerede set blocks.oak. Men der findes tilsvarende navne på alle de andre blocks. fx blocks.air.
+
+Den anden måde er at skrive tal værdien for blocken man skal bruge. Man skriver her i stedet talværdien for blokken. For oak er det fx: 
+
+```javascript
+box('5', bredde, hoejde, dybde);
+```
+Nogle blocks findes der flere forskellige udgaver af. Fx findes der mange forskellige typer af planker. Vi har set oak allerede. Men der findes tre andre slags træer. I denne situation skriver man et tal bagved ':'. Vi kan tage blocks.birch. Den kan laved ved: 
+
+```javascript
+box('5:2', bredde, hoejde, dybde);
+```
+Der findes en liste over alle blocks numre i afsnittet [Minecraft Blocks](### Minecraft Blocks)
 
 Drone kan rigtig mange ting, derfor anbefaler vi at man kigger på den engelske guide, så man kan se alle de forskellgie funktioner! 
 Link: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/API-Reference.md#drone-plugin
 
-
+### Minecraft Blocks
+![Minecraft Data Values][img_dv]
 
 
