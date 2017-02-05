@@ -79,10 +79,10 @@ box('5:2', bredde, hoejde, dybde);
 Der findes en liste over alle blocks numre i afsnittet [Minecraft Blocks](#minecraft-blocks)
 
 
-Drone kan rigtig mange ting, derfor anbefaler vi at man kigger på den engelske guide, så man kan se alle de forskellgie funktioner! 
+Drone kan rigtig mange ting, derfor anbefaler vi at man kigger på den engelske guide, så man kan se alle de forskellige funktioner! 
 Link: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/API-Reference.md#drone-plugin
 
 ### Minecraft Blocks
 ![Minecraft Data Values][img_dv]
-
+[img_dv]: https://github.com/ArvidLangsoe/MineCraft-WorkShop-CP/blob/master/source/ypgpm_datavalues.png "All minecraft blocks."
 
