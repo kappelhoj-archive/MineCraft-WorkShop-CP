@@ -76,9 +76,9 @@ Nogle blocks findes der flere forskellige udgaver af. Fx findes der mange forske
 ```javascript
 box('5:2', bredde, hoejde, dybde);
 ```
-Der findes en liste over alle blocks numre i afsnittet [Minecraft Blocks](### Minecraft Blocks)
+Der findes en liste over alle blocks numre i afsnittet [Minecraft Blocks](###Minecraft Blocks)
 
-[# Javascript](## Javascript)
+[Javascript](##Javascript)
 
 Drone kan rigtig mange ting, derfor anbefaler vi at man kigger på den engelske guide, så man kan se alle de forskellgie funktioner! 
 Link: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/API-Reference.md#drone-plugin
