@@ -8,10 +8,10 @@ https://scriptcraftjs.org/
 
 **Til Danske brugere**
 
-Hej med dig! Den her side indeholder en masse ting vi har lavet på minecraft workshoppen i Coding Pirates Hvidovre. Blandt andet kan man i [opslagsbogen][opslagsbog] finde en masse information om scriptcraft og javascript, som vi bruger i undervisningen. Der kommer også senere til at ligge ting her på siden som piraterne har lavet. Så kan i se nogle eksempler på de ting vi laver på workshoppen. 
+Hej med dig! Den her side indeholder en masse ting vi har lavet på minecraft workshoppen i [Coding Pirates Hvidovre][opslagsbogen][opslagsbog]. Blandt andet kan man i [opslagsbogen][opslagsbog] finde en masse information om scriptcraft og javascript, som vi bruger i undervisningen. Der kommer også senere til at ligge ting her på siden som piraterne har lavet. Så kan i se nogle eksempler på de ting vi laver på workshoppen. 
 
 Man er selvfølgelig meget velkommen til at komme med forslag til siden, og gerne selv bidrage hvis man har styr på github! 
 
 
-
+[hjemmeside]: https://codingpirates.dk/hvidovre/
 [opslagsbog]: https://github.com/ArvidLangsoe/MineCraft-WorkShop-CP/blob/master/Opslagsbog.md
