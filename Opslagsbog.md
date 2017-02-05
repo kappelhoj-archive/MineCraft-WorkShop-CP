@@ -4,11 +4,11 @@
 
 [Scriptcraft Funktioner](#scriptcraft-funktioner )
 
-  [echo](#echo)
+&nbsp;[echo](#echo)
   
-  [Drone](#drone)
-  
-  [Minecraft Blocks](#minecraft-blocks)
+&nbsp;[Drone](#drone)
+
+&nbsp;[Minecraft Blocks](#minecraft-blocks)
 
 
 ##Introduktion
