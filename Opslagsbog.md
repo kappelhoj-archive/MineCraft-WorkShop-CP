@@ -9,13 +9,15 @@ Hvis man skriver kode i filer er dette ikke nødvendigt, her kan man nøjes med:
 
 var placering = 10;
 
+## Minecraft commands og 
+
 ## Javascript
 ### Variable
 En variabel er et navn på noget man har gemt i computerens hukommelse. Man kan forestille sig det lidt som en kasse hvor man har skrevet et navn på, og så kan man ligge ting ned i kassen. 
 
 I javascript kan man oprette variable ved at skrive 'var'. Man skriver fx:
 
-var spillerNavn;
+´var spillerNavn;´
 
 Nu har vi oprettet en variabel der hedder spillerNavn. Vi kan nu sætte spiller navn til at være lig et navn. Dette kan vi gøre således:
 
@@ -30,7 +32,6 @@ Dette vil printe 'Anders And' ud på skærmen.
 
 
 ## Scriptcraft Funktioner 
-
 ### echo
 
 
