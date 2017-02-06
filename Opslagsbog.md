@@ -1,12 +1,12 @@
 # Opslags bog til scriptcraft.
 
 ##Indhold:
-[Introduktion](#introduktion)
+* [Introduktion](#introduktion)
 
-[Javascript](#javascript)
+* [Javascript](#javascript)
  * [Variable](#variable)
 
-[Scriptcraft Funktioner](#scriptcraft-funktioner )
+* [Scriptcraft Funktioner](#scriptcraft-funktioner )
   * [echo](#echo)
   
   * [Drone](#drone)
