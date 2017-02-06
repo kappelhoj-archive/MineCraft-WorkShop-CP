@@ -29,6 +29,7 @@ Hvis man skriver kode i filer er dette ikke nødvendigt, her kan man nøjes med:
 
 
 ## Javascript
+Dette afsnit beskriver javascript generelt. Hvis i er i tvivl om noget generelt java script kode så findes det her.
 ### Variable
 En variabel er et navn på noget man har gemt i computerens hukommelse. Man kan forestille sig det lidt som en kasse hvor man har skrevet et navn på, og så kan man ligge ting ned i kassen. 
 
