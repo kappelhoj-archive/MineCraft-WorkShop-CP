@@ -3,7 +3,7 @@
 ## Hvad skal vi lave?
 I dette projekt skal vi bruge Droner i Scriptcraft. Vi skal altså bygge forskellige ting i minecraft ved hjælp af et script som i skal skrive.
 
-Når anden uge er begyndt, så begynder vi så småt på projktet. Det er tanken at i selv vælger en ting i kunne tænke jer at bygge, og så laver i et script der bygger det.
+Når anden uge er begyndt, så begynder vi så småt på projektet. Det er tanken at i selv vælger en ting i kunne tænke jer at bygge, og så laver i et script der bygger det.
 
 I kan slå op i opslagbogen og inde på scriptcrafjs.org for at se hvordan dronen den virker. I må selvfølgelig også gerne spørge om hjælp 
 fra kaptajnerne! 
