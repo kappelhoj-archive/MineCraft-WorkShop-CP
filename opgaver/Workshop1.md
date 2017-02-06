@@ -7,7 +7,7 @@ Når anden uge er begyndt, så begynder vi så småt på projktet. Det er tanken
 
 I kan slå op i opslagbogen og inde på scriptcrafjs.org for at se hvordan dronen den virker. I må selvfølgelig også gerne spørge om hjælp 
 fra kaptajnerne! 
-I må arbejde sammen i grupper hvis i har lyst til det.
+I må  også gerne arbejde sammen i grupper hvis i har lyst til det.
 
 
 ## Forslag til ting i kan bygge.
