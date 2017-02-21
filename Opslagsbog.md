@@ -10,6 +10,7 @@
   * [echo](#echo)
   
   * [Drone](#drone)
+     * [Drone Funktioner](#drone-funktioner)
 
   * [Minecraft Blocks](#minecraft-blocks)
 
@@ -112,6 +113,8 @@ Den sidste metode turn, den rykker ikke dronen. Den rotere i stedet dronen. Så 
 
 Drone kan rigtig mange ting, derfor anbefaler vi at man kigger på den engelske guide, så man kan se alle de forskellige funktioner! 
 Link: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/API-Reference.md#drone-plugin
+
+#### Drone Funktioner
 
 ### Minecraft Blocks
 Dette er en liste over minecraft blocks. Det bruges blandt andet af drone.
