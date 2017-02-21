@@ -116,14 +116,14 @@ Link: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/API-Referenc
 
 #### Drone Funktioner
 
-Det er muligt at implementere droner i en javascript funktion i en seperat fil. Det kunne fx være jeg ville lave en funktion der bygger et minecraft begynder hus. Jamen så kunne jeg lave en funktion der hed 'begynderhus'. Inde i minecraft der kan man så kalde `/js begynderhus()`. Så udføre den det som er beskrevet i funktionen.
+Det er muligt at implementere droner i en javascript funktion i en seperat fil. Det kunne fx være jeg ville lave en funktion der bygger et minecraft begynder hus. Jamen så kunne jeg lave en funktion der hed 'begynderhus'. Inde i minecraft kan man så kalde `/js begynderhus()`. Så udføre den det som er beskrevet i funktionen.
 
 Der ligger en skabelon til hvordan man skriver en drone funktion her:
 https://github.com/ArvidLangsoe/MineCraft-WorkShop-CP/blob/master/Drone%20Eksempler/skabelon.js
 
 Det er vigtigt at navnet på ens funktion står i toppen og i bunden. I skabelonen står der fx: `function skabelon()`. Her skal `skabelon` erstates med funktionens navn. Hvis jeg bruger begynderhus eksemplet, så ville jeg skrive: `function begynderhus()`. I nederste linje skal jeg også erstate 'skabelon' med 'begynderhus'. Der må **IKKE** være mellemrum i en funktions navn.
 
-Når man arbejder med droner, så skal man inde i sin funktion bruge ordet `this`. `this` refferere til den drone man starter når man kalder funktionen. Derfor kan man fx skrive `this.box('5')`. Dette vil lave en block af typen oak. Tilsvarende kan an bruge alle de andre drone operationer.
+Når man arbejder med droner, så skal man inde i sin funktion bruge ordet `this`. `this` refferere til den drone man starter når man kalder funktionen. Derfor kan man fx skrive `this.box('5')`. Dette vil lave en block af typen oak. Tilsvarende kan man bruge alle de andre drone operationer, som beskrevet i det tidligere afsnit.
 
 Der ligger et eksempel på hvordan man bruger dronen i funktioner her:
 https://github.com/ArvidLangsoe/MineCraft-WorkShop-CP/blob/master/Drone%20Eksempler/mystarterhouse.js
