@@ -61,6 +61,32 @@ Man kan også sætte en variabel i samme linje som man laver den, her er et ekse
 
 #### Sandt/Falsk
 
+I kender begreberne sandt og falsk. Disse begreber findes også i javascript. Vi kalder dem 'true' og 'false'. Et simpelt eksempel kunne være. Er jorden rund? Hvilket er sandt. Tilsvarende: Er jorden firkantet? Hvilket er falsk.
+
+Disse eksempler kan vi ikke bruge i javascript. Computeren forstår kun simple ting. Vi kan fx spørge computeren: Er 5 lig med 7? Er 3 mindre end 4? 
+
+Det giver ikke så meget mening at skrive, men hvis vi bruger variable giver det pludselig mere mening. Så lad os sige vi har en variabel kaldet antalElever. Denne variable indeholder antallet af elever i en eller anden klasse. Nu kan vi stille spørgsmål ligesom før: Er antalElever lig med 7? Er antalElever mindre end 4?
+
+I javascript skriver man selvføgelig ikke tekst på den måde. Man skriver i stedet forskellige tegn. Fx:  Er antalElever lig med 7? er det samme som antalElever==7.
+
+* x\<y, Er x mindre end y
+* x\>y, Er x større end y
+* x==y, Er x lig med y
+* x<=y, Er x mindre end eller lig med y
+* x>=y, Er x større end eller lig med y
+* x!=y, Er x ikke lig med y
+
+Her er et par eksempler hvor antalElever er lig 7:
+
+* antalElever\<10 : true
+* antalElever > 10 : false
+* antalELever == 7 : true
+* antalElever <= 6 : false
+* antalElever >= 7 : true
+* antalElever != 7 : false
+
+
+
 ## Scriptcraft Funktioner 
 
 ### echo
