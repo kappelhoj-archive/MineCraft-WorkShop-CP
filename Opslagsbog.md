@@ -59,6 +59,8 @@ Man kan også sætte en variabel i samme linje som man laver den, her er et ekse
 
 ### If Statements
 
+#### Sandt/Falsk
+
 ## Scriptcraft Funktioner 
 
 ### echo
