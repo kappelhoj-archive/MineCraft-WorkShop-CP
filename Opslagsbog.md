@@ -5,6 +5,7 @@
 
 * [Javascript](#javascript)
  * [Variable](#variable)
+ * [If Statements](#if-statements)
 
 * [Scriptcraft Funktioner](#scriptcraft-funktioner )
   * [echo](#echo)
@@ -54,6 +55,9 @@ Man kan altid ændre en variabel igen, vi kan fx ændre spillerNavn til 'Mickey 
 Man kan også sætte en variabel i samme linje som man laver den, her er et eksempel:
 
 `var spiller2Navn = 'Fedtmule';`
+
+
+### If Statements
 
 ## Scriptcraft Funktioner 
 
