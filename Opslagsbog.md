@@ -61,33 +61,33 @@ Man kan også sætte en variabel i samme linje som man laver den, her er et ekse
 
 #### Sandt/Falsk
 
-I kender begreberne sandt og falsk. Disse begreber findes også i javascript. Vi kalder dem 'true' og 'false'. Et simpelt eksempel kunne være. Er jorden rund? Hvilket er sandt. Tilsvarende: Er jorden firkantet? Hvilket er falsk.
+I kender begreberne sandt og falsk. Disse begreber findes også i javascript. Vi kalder dem 'true' for sandt og 'false' for falsk. Et simpelt eksempel kunne være. Er jorden rund? Hvilket er sandt. Tilsvarende: Er jorden firkantet? Hvilket er falsk.
 
-Disse eksempler kan vi ikke bruge i javascript. Computeren forstår kun simple ting. Vi kan fx spørge computeren: Er 5 lig med 7? Er 3 mindre end 4? 
+Disse eksempler kan vi ikke bruge i javascript. Computeren forstår ikke abstrakte begreber, men det forstår simple matematiske spørgsmål. Vi kan fx spørge computeren om: Er 5 lig med 7? Er 3 mindre end 4? 
 
 Det giver ikke så meget mening at skrive, men hvis vi bruger variable giver det pludselig mere mening. Så lad os sige vi har en variabel kaldet antalElever. Denne variable indeholder antallet af elever i en eller anden klasse. Nu kan vi stille spørgsmål ligesom før: Er antalElever lig med 7? Er antalElever mindre end 4?
 
 I javascript skriver man selvføgelig ikke tekst på den måde. Man skriver i stedet forskellige tegn. Fx:  Er antalElever lig med 7? er det samme som antalElever==7.
 
-* x\<y, Er x mindre end y
-* x\>y, Er x større end y
-* x==y, Er x lig med y
-* x<=y, Er x mindre end eller lig med y
-* x>=y, Er x større end eller lig med y
-* x!=y, Er x ikke lig med y. Altså er x forskellige fra y.
+* x\<y,   Er x mindre end y
+* x\>y,   Er x større end y
+* x==y,   Er x lig med y
+* x<=y,   Er x mindre end eller lig med y
+* x>=y,   Er x større end eller lig med y
+* x!=y,   Er x ikke lig med y. Altså er x forskellige fra y.
 
 Her er et par eksempler hvor **antalElever er lig 7**:
 
-* antalElever\<10 : true
-* antalElever > 10 : false
-* antalELever == 7 : true
-* antalElever <= 6 : false
-* antalElever >= 7 : true
-* antalElever != 7 : false
+* antalElever\<10 :   true
+* antalElever > 10 :  false
+* antalELever == 7 :  true
+* antalElever <= 6 :  false
+* antalElever >= 7 :  true
+* antalElever != 7 :  false
 
 #### if/else
 
-If er en indbygget funktion i de fleste programmerings sprog. If tjekker om noget er sandt og hvis det er sandt, så udføres nogle oprationer. Koden kan fx se sådan ud: 
+If er en indbygget funktion i de fleste programmerings sprog. If tjekker om noget er sandt og hvis det er sandt, så udføres koden der står inde if statementen oprationer. Koden kan fx se sådan ud: 
 
 ```javascript
 if(antalElever<7){
@@ -116,7 +116,7 @@ else{
 }
 ```
 
-Vi kan se at det første og andet if statement bliver kørt, men det tredje if statement er ikke sandt. Så kommer der en ny tingsom kaldes else. Else betyder at hvis den statement ovenover er falsk, så udføre den det som står i {}. Fx kan vi se på koden her:
+Vi kan se at det første og andet if statement bliver kørt, men det tredje if statement er ikke sandt. Så kommer der en ny funktion som kaldes else. Else betyder at hvis den if statement der står ovenover er falsk, så udføre den det som står i else. Fx kan vi se på koden her:
 
 ```javascript
 
@@ -131,6 +131,42 @@ if(antalElever!=8){
 }
 else{
   /*Denne kode udføres, hvis antallet af elever er lig 8*/
+}
+```
+
+Der findes også en funktion der hedder else if. else if virker ligesom else. Hvis den statement der står ovenover er falst, så kaldes else if. Modsat else, så tjekker else if også om et eller andet er sandt. Her er et eksempel:
+
+```javascript
+
+if(antalElever==8){
+ /*Denne kode udføres, hvis antallet af elever er lig 8*/
+}
+else if(antalElever==7){
+ /*Denne kode udføres, hvis antallet af elever er lig 7 og den forrige if statement ikke var sand.*/
+}
+else if(antalElever<10){
+  /*Denne kode udføres, hvis antallet af elever er mindre end 10 og alle de forrige if statements er falske*/
+}
+else{
+ /*Denne kode udføres hvis ingen af de andre if statements var sande.*/
+}
+```
+
+Hver gang man skriver `if(variabel){}`, så starter man en ny sekvens. Man kan altså have flere if statements, der ikke afhænger af hinanden. fx:
+
+```javascript
+if(antalElever>10){
+ /*Denne kode udføres, hvis antallet af elever er større end 10*/
+}
+
+if(antalElever==8){
+ /*Denne kode udføres, hvis antallet af elever er lig 8. Uanset hvad der skete i den forrige if statements. */
+}
+else if(antalElever==7){
+ /*Denne kode udføres, hvis antallet af elever er lig 7 og den forrige if statement ikke var sand.*/
+}
+else{
+ /*Denne kode udføres hvis ingen af de andre (if/else if) statements var sande.*/
 }
 ```
 
