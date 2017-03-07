@@ -74,9 +74,9 @@ I javascript skriver man selvføgelig ikke tekst på den måde. Man skriver i st
 * x==y, Er x lig med y
 * x<=y, Er x mindre end eller lig med y
 * x>=y, Er x større end eller lig med y
-* x!=y, Er x ikke lig med y
+* x!=y, Er x ikke lig med y. Altså er x forskellige fra y.
 
-Her er et par eksempler hvor antalElever er lig 7:
+Her er et par eksempler hvor **antalElever er lig 7**:
 
 * antalElever\<10 : true
 * antalElever > 10 : false
@@ -85,7 +85,7 @@ Her er et par eksempler hvor antalElever er lig 7:
 * antalElever >= 7 : true
 * antalElever != 7 : false
 
-#### if/else if/ else
+#### if/else
 
 If er en indbygget funktion i de fleste programmerings sprog. If tjekker om noget er sandt og hvis det er sandt, så udføres nogle oprationer. Koden kan fx se sådan ud: 
 
@@ -94,9 +94,46 @@ if(antalElever<7){
 /*Denne kode udføres hvis statementen er sand.*/
 }
 /*Denne kode udføres altid*/
-
-
 ```
+
+Vi kan nu se at vi har en if statement, som tager et input. Vores input er (antalElever\<7). Så vi tjekker om antallet af elever er mindre end 7. Hvis  det er sandt, så køre vi koden der står imellem {}. Hvis det ikke er sandt, så springer vi alt koden over der står mellem {}. Her er et par eksempler:
+
+```javascript
+antalElever= 8
+if(antalElever<9){
+ /*Denne kode udføres. Fordi antallet af elever er mindre end 9*/
+}
+
+if(antalElever>7){
+ /*Denne kode udføres. Fordi at antalElever er større end 7*/
+}
+
+if(antalElever!=8){
+ /*Denne kode udføres ikke. Fordi at antal elever er lig med 8.*/
+}
+else{
+  /*Denne kode udføres, fordi if'en der står ovenover ikke var sand.*/
+}
+```
+
+Vi kan se at det første og andet if statement bliver kørt, men det tredje if statement er ikke sandt. Så kommer der en ny tingsom kaldes else. Else betyder at hvis den statement ovenover er falsk, så udføre den det som står i {}. Fx kan vi se på koden her:
+
+```javascript
+
+if(antalElever<8){
+ /*Denne kode udføres, hvis antallet af elever er mindre end 8*/
+}
+else{
+  /*Denne kode udføres, hvis antallet af elever er større end eller lig med 8.*/
+}
+if(antalElever!=8){
+ /*Denne kode udføres, hvis antallet af elever  ikke er lig 8*/
+}
+else{
+  /*Denne kode udføres, hvis antallet af elever er forskellige fra 8*/
+}
+```
+
 
 ## Scriptcraft Funktioner 
 
