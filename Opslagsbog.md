@@ -85,7 +85,18 @@ Her er et par eksempler hvor antalElever er lig 7:
 * antalElever >= 7 : true
 * antalElever != 7 : false
 
+#### if/else if/ else
 
+If er en indbygget funktion i de fleste programmerings sprog. If tjekker om noget er sandt og hvis det er sandt, så udføres nogle oprationer. Koden kan fx se sådan ud: 
+
+```javascript
+if(antalElever<7){
+/*Denne kode udføres hvis statementen er sand.*/
+}
+/*Denne kode udføres altid*/
+
+
+```
 
 ## Scriptcraft Funktioner 
 
