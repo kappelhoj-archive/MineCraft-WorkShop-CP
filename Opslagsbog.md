@@ -127,10 +127,10 @@ else{
   /*Denne kode udføres, hvis antallet af elever er større end eller lig med 8.*/
 }
 if(antalElever!=8){
- /*Denne kode udføres, hvis antallet af elever  ikke er lig 8*/
+ /*Denne kode udføres, hvis antallet af elever er forskellige fra 8*/
 }
 else{
-  /*Denne kode udføres, hvis antallet af elever er forskellige fra 8*/
+  /*Denne kode udføres, hvis antallet af elever er lig 8*/
 }
 ```
 
