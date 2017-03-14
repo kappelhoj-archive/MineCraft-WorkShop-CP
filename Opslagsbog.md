@@ -6,6 +6,7 @@
 * [Javascript](#javascript)
  * [Variable](#variable)
  * [If Statements](#if-statements)
+ * [Loops](#loops)
 
 * [Scriptcraft Funktioner](#scriptcraft-funktioner )
   * [echo](#echo)
@@ -169,6 +170,9 @@ else{
  /*Denne kode udføres hvis ingen af de andre (if/else if) statements var sande.*/
 }
 ```
+
+
+### Loops
 
 
 ## Scriptcraft Funktioner 
