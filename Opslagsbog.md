@@ -1,6 +1,6 @@
 # Opslags bog til scriptcraft.
 
-##Indhold:
+## Indhold:
 * [Introduktion](#introduktion)
 
 * [Javascript](#javascript)
