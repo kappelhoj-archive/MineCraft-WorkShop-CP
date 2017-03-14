@@ -20,6 +20,7 @@
 ## Introduktion
 Denne side bliver opdateret løbende med de ting vi lærer. Hvis man vil læse foran kan man altid gå ind på scriptcrafthjemmeside!
 Link til den engelske hjemmeside: https://scriptcraftjs.org/
+Herinde kan man også finde en instalations guide til scriptcraft.
 
 
 Hust at når man skriver javascript kode i minecraft, så skal man skrive /js foran. Ex: 
