@@ -175,6 +175,67 @@ else{
 
 ### Loops
 
+Loops er en en funktion i javascript der får kode til at gentage sig selv. Vi kunne fx sige:
+
+```javascript
+ while(true){
+   this.box(5,1,1,1);
+   this.right(1);
+ }
+```
+
+Som i kan se brug vi ordet while. While kan oversættes til 'så længe at'. Så når vi skriver while(true), så skriver vi at så længe dette er sandt, gør noget. Vi gentager altså koden uendeligt. Vi kan derfor ændre lidt på inputtet:
+
+```javascript
+var antalKasser=0
+while(antalKasser<10){
+   this.box(5,1,1,1);
+   this.right(1);
+   antalKasser++;
+ }
+```
+
+Nu har vi modificeret koden, og koden gør derfor følgende: Vi starter med 0 kasser. Så går vi ind i while loopen og køren koden så længe antallet af kasser er mindre end 10. Inde i loopet laver vi en kasse, så rykker vi dronen en til højre og til sidst tæller vi antallet af kasser 1 gang op.
+På den måde har vi nu gentaget noget kode vi bruger flere gange, uden at kopier der. Hvis vi ikke brugt loops, kunne koden komme til at set sådan her ud:
+
+
+```javascript
+
+   this.box(5,1,1,1);
+   this.right(1);
+   antalKasser++;
+   this.box(5,1,1,1);
+   this.right(1);
+   antalKasser++;
+   this.box(5,1,1,1);
+   this.right(1);
+   antalKasser++;
+   this.box(5,1,1,1);
+   this.right(1);
+   antalKasser++;
+   this.box(5,1,1,1);
+   this.right(1);
+   antalKasser++;
+   this.box(5,1,1,1);
+   this.right(1);
+   antalKasser++;
+   this.box(5,1,1,1);
+   this.right(1);
+   antalKasser++;
+   this.box(5,1,1,1);
+   this.right(1);
+   antalKasser++;
+   this.box(5,1,1,1);
+   this.right(1);
+   antalKasser++;
+   this.box(5,1,1,1);
+   this.right(1);
+   antalKasser++;
+   
+ 
+```
+
+
 
 ## Scriptcraft Funktioner 
 
