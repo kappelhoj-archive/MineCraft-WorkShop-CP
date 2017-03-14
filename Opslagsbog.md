@@ -17,7 +17,7 @@
   * [Minecraft Blocks](#minecraft-blocks)
 
 
-##Introduktion
+## Introduktion
 Denne side bliver opdateret løbende med de ting vi lærer. Hvis man vil læse foran kan man altid gå ind på scriptcrafthjemmeside!
 Link til den engelske hjemmeside: https://scriptcraftjs.org/
 
