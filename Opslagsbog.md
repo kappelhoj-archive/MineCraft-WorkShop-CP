@@ -4,9 +4,9 @@
 * [Introduktion](#introduktion)
 
 * [Javascript](#javascript)
- * [Variable](#variable)
- * [If Statements](#if-statements)
- * [Loops](#loops)
+  * [Variable](#variable)
+  * [If Statements](#if-statements)
+  * [Loops](#loops)
 
 * [Scriptcraft Funktioner](#scriptcraft-funktioner )
   * [echo](#echo)
