@@ -196,45 +196,44 @@ while(antalKasser<10){
 ```
 
 Nu har vi modificeret koden, og koden gør derfor følgende: Vi starter med 0 kasser. Så går vi ind i while loopen og køren koden så længe antallet af kasser er mindre end 10. Inde i loopet laver vi en kasse, så rykker vi dronen en til højre og til sidst tæller vi antallet af kasser 1 gang op.
-På den måde har vi nu gentaget noget kode vi bruger flere gange, uden at kopier der. Hvis vi ikke brugt loops, kunne koden komme til at set sådan her ud:
+På den måde har vi nu gentaget noget kode vi bruger flere gange, uden at kopier der. Hvis vi ikke brugte loops, kunne koden komme til at set sådan her ud:
 
 
 ```javascript
 
    this.box(5,1,1,1);
    this.right(1);
-   antalKasser++;
    this.box(5,1,1,1);
    this.right(1);
-   antalKasser++;
    this.box(5,1,1,1);
    this.right(1);
-   antalKasser++;
    this.box(5,1,1,1);
    this.right(1);
-   antalKasser++;
    this.box(5,1,1,1);
    this.right(1);
-   antalKasser++;
    this.box(5,1,1,1);
    this.right(1);
-   antalKasser++;
    this.box(5,1,1,1);
    this.right(1);
-   antalKasser++;
    this.box(5,1,1,1);
    this.right(1);
-   antalKasser++;
    this.box(5,1,1,1);
    this.right(1);
-   antalKasser++;
    this.box(5,1,1,1);
    this.right(1);
-   antalKasser++;
-   
- 
 ```
 
+Her kan man se at der er meget svære at læse hvad der står, og while loopet gør det markant nemmere at læse og forstå hvad koden gør.
+Der findes et loop mere som kaldes for et for loop. Et for loops bruges oftest når man har et start punkt og man skal køre koden et antal gange. Vi kan fx omskrive den forrige while loop til et foor loop således:
+
+```javascript
+ for(antalKasser=0;antalKasser<10;antalKasser++){
+   this.box(5,1,1,1);
+   this.right(1);
+ }
+```
+
+Det kan ses at koden er blevet en lille smule kortere, og det kan nogle gange gør det nemmere at læse koden.
 
 
 ## Scriptcraft Funktioner 
